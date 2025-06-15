@@ -9,7 +9,7 @@ interface Position {
   seite: string;
 }
 
-export default function Konfigurator() {
+export default function Vorbaurollladen() {
   const [auftrag, setAuftrag] = useState("");
   const [positionen, setPositionen] = useState<Position[]>([]);
   const [kunde, setKunde] = useState("");
@@ -38,7 +38,7 @@ export default function Konfigurator() {
 
   return (
     <div style={{ padding: '2rem', maxWidth: '960px', margin: '0 auto' }}>
-      <h1>Rollladen-Konfigurator</h1>
+      <h1>Vorbaurollladen CLASSIC SK</h1>
       <p><strong>Zákazník:</strong> {kunde}</p>
 
       <div style={{ margin: '1rem 0' }}>
